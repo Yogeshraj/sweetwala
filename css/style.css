@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 300;
+  color: #000000;
+	}
+
+html,body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 100%;
+}
+a{color: #000000;}
+
+/* Typography */
+h1,h2,h3, .btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 100px;
+}
+
+h2 {
+  color: #333;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+
+h3 {
+  color: #444;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+
+h4 {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 28px;
+}
+
+a {
+  text-decoration: none !important;
+}
+a:visited,
+a:focus {
+  outline: none;
+  text-decoration: none !important;
+}
+
+.parallax-section {
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+/* hover min css */
+.hvr-bounce-to-bottom:before,
+.hvr-bounce-to-top:before {
+  background-color: #ffffff;
+}
+
+
+/* All Section styles */
+#about,
+#feature,
+#video,
+#menu,
+#team,
+#products,
+#contact {
+  color: #656565;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#feature,
+#video,
+#team,
+#products,
+#contact {
+  text-align: center;
+}
+
+#feature,
+#team {
+  background: rgb(240,240,240);
+}
+
+
+
+/* section title */
+.section-title {
+  padding-bottom: 70px;
+}
+#about .section-title,
+#menu .section-title {
+  text-align: center;
+}
+#contact .section-title {
+  color: #f0f0f0;
+}
+
+
+
+/* Preloader section  */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: none repeat scroll 0 0 #ffffff;
+}
+
+.sk-spinner-pulse {
+  width: 60px;
+  height: 60px;
+  background-color: #222;
+  border-radius: 100%;
+  -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
+          animation: sk-pulseScaleOut 1s infinite ease-in-out; }
+
+@-webkit-keyframes sk-pulseScaleOut {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0; } }
+
+@keyframes sk-pulseScaleOut {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0; } }
+
+
+.head{
+  background: #ffb533;
+}
+.flower{
+  position: absolute;
+  left: 30%;
+}
+.head-info {
+    margin: 0 auto;
+    padding: 5px 0px;
+}
+.head-info li{
+  display: inline-block;
+  /*padding-right: 20px;*/
+  padding: 0 8px;
+  border-right: 1px solid #fff;
+}
+.head-info li:last-child{
+  padding-right: 0px;
+  border-right: none;
+}
+.head-info i{
+  padding-right: 10px;
+}
+.cart{
+  font-size: 14px;
+  padding-right: 5px;
+}
+.header{
+      padding: 15px 0px;
+}
+
+.menu{
+  margin: 0px;
+}
+.menu li a{
+    color: #491c59;
+    text-transform: uppercase;
+    padding-right: 39px;
+    font-size: 20px;
+    padding: 0 11px;
+}
+.menu li:nth-last-child(3) a{
+  border-right: 1px solid #ffb533;
+}
+.menu .social a{
+     padding: 0;
+    padding-right: 4px;
+}
+
+.menu li:last-child a{
+  padding-right: 0px;
+}
+.navbar{
+  padding-right: 0px;
+}
