@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+/*@import url('https://fonts.googleapis.com/css?family=Fjalla+One');*/
 
 *{
   margin: 0;
@@ -7,7 +7,7 @@
 
 body {
   background: #ffffff;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'FjallaOne-Regular', sans-serif;
   font-weight: 300;
   color: #000000;
 	}
@@ -24,7 +24,7 @@ a{color: #000000;}
 
 /* Typography */
 h1,h2,h3, .btn {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DancingintheRainbow', sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
 }
@@ -35,11 +35,10 @@ h1 {
 }
 
 h2 {
-  color: #333;
-  font-size: 40px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin-top: 8px;
+    font-family: 'DancingintheRainbow', sans-serif;
+    color: #ffffff;
+    font-size: 55px;
+    letter-spacing: 2px;
 }
 
 
@@ -226,4 +225,31 @@ a:focus {
 }
 .navbar{
   padding-right: 0px;
+}
+.banner{
+    background-image: url(../images/banner.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 210px;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.banner h2 {
+      text-align: center;
+    vertical-align: middle;
+    line-height: 180px;
+}
+.content {
+  background-image: url(../images/background.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 1704px;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
 }

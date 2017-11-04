@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'FjallaOne-Regular';
+  src: url('FjallaOne-Regular.eot');
+  src: url('FjallaOne-Regular.woff2') format('woff2'),
+       url('FjallaOne-Regular.woff') format('woff'),
+       url('FjallaOne-Regular.ttf') format('truetype'),
+       url('FjallaOne-Regular.svg#FjallaOne-Regular') format('svg'),
+       url('FjallaOne-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
