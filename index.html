@@ -22,7 +22,7 @@
           </div>
           <div class="col-md-4">
             <ul class="head-info">
-              <li><i><img src="images/call.png"></i>91-9952027147</li>
+              <li><span class="call"><i><img src="images/call.png"></i>91-9952027147</span></li>
               <li><a href=""><span class="cart">MY cart</span> <i><img src="images/cart.png"></i></a></li>
               <li><a href=""><span class="cart">Sign In</span> <i><img src="images/signin.png"></i></a></li>
             </ul>
@@ -33,24 +33,49 @@
     <div id="sec2" class="header">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 logo">
             <img src="images/logo.png" alt="logo">
           </div>
-          <div class="col-md-6">
+
+		  <div class="menu-bar" onclick="myFunction(this)">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+		</div>
+        <!-- menu for mobile -->
+          <div class="col-md-6 mobile-main-menu">
             <nav class="navbar navbar-inverse">
               <div class="container">
                 <ul class="list-inline menu">
-                  <li class="list-inline-item"><a href="">Home</a></li>
-                  <li class="list-inline-item"><a href="">Sweet</a></li>
-                  <li class="list-inline-item"><a href="">Snakcs</a></li>
-                  <li class="list-inline-item"><a href="">Candies</a></li>
-                  <li class="list-inline-item"><a href="">Contact</a></li>
+                  <li class="list-inline-item"><a href=""  data-hover="Home">Home</a></li>
+                  <li class="list-inline-item"><a href="" data-hover="Sweet">Sweet</a></li>
+                  <li class="list-inline-item"><a href="" data-hover="Snakcs">Snakcs</a></li>
+                  <li class="list-inline-item"><a href="" data-hover="Candies">Candies</a></li>
+                  <li class="list-inline-item"><a href="" data-hover="Contact">Contact</a></li>
                   <li class="list-inline-item social"><a href=""><img src="images/facebook.png" alt="logo"></a></li>
                   <li class="list-inline-item social"><a href=""><img src="images/twitter.png" alt="logo"></a></li>
                 </ul>
               </div>
             </nav>
           </div>
+
+           <div class="col-md-6 main-menu">
+            <nav class="navbar navbar-inverse">
+              <div class="container">
+                <ul class="list-inline menu">
+                  <li class="list-inline-item"><a href=""  data-hover="Home">Home</a></li>
+                  <li class="list-inline-item"><a href="" data-hover="Sweet">Sweet</a></li>
+                  <li class="list-inline-item"><a href="" data-hover="Snakcs">Snakcs</a></li>
+                  <li class="list-inline-item"><a href="" data-hover="Candies">Candies</a></li>
+                  <li class="list-inline-item"><a href="" data-hover="Contact">Contact</a></li>
+                  <li class="list-inline-item social"><a href=""><img src="images/facebook.png" alt="logo"></a></li>
+                  <li class="list-inline-item social"><a href=""><img src="images/twitter.png" alt="logo"></a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+
+
         </div>
       </div>
     </div>
@@ -144,15 +169,15 @@
 	    		<div class="col-md-3 foot">
 	    			<h3>News Letter</h3>
 	    			<p class="highlight">Subscribe to the mailing list to receive updates on new arrivals, Special offers and other discount information.</p>
-	    			<form>
+	    			<form class="subscribe-form">
 	    				<input type="email" name="email" placeholder="Enter your e-mail" class="email-box">
 	    				<input type="submit" name="Subscribe" value="Subscribe" class="btn">
 	    			</form>
 	    		</div>
 	    		<div class="col-md-3 foot no_border">
 	    			<h3>Store Information</h3>
-	    			<p><i><img src="images/location-point.png" alt="location"></i>Sripuram Dwaraga Complex Tirunelveli</p>
-	    			<p><i><img src="images/mobile.png" alt="mobile"></i>91-9952027147</p>
+	    			<p><i><img src="images/location-point.png" alt="location"></i><span>Sripuram Dwaraga Complex Tirunelveli</span></p>
+	    			<p><i><img src="images/mobile.png" alt="mobile"></i><span>91-9952027147</span></p>
 	    			<p><a href="info@sweetwalah.com"><i><img src="images/message.png" alt="message"></i>info@sweetwalah.com</a></p>
 	    		</div>
 	    	</div>

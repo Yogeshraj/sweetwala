@@ -203,10 +203,6 @@ ul li{
     transform: translateY(0px);
   }
 }
-
-
-
-
 .menu{
   margin: 0px;
 }
@@ -237,16 +233,10 @@ nav a:hover:after {
     left: 50%;
     margin-left: -13px;
 }
-
-
-
-
-
 .menu .social a{
      padding: 0;
     padding-right: 4px;
 }
-
 .menu li:last-child a{
   padding-right: 0px;
 }
@@ -263,7 +253,6 @@ nav a:hover:after {
     width: 100%;
     background-repeat: no-repeat;
     height: 100%;
-/*    margin-top: 76px;*/
 }
 .banner h2 {
       text-align: center;
@@ -295,6 +284,7 @@ nav a:hover:after {
 }
 .foot p{
   color: #ffffff;
+margin-bottom: 25px;
 }
 
 .highlight{
@@ -316,7 +306,6 @@ nav a:hover:after {
 .foot li:last-child{
     border-bottom: none;
 }
-
 .no_border{
   border-right:  none !important;
 }
@@ -337,6 +326,8 @@ nav a:hover:after {
 }
 .foot i{
   padding-right: 20px;
+      width: 30%;
+    float: left;
 }
 .copyrights{
  background: #ffa300;
@@ -372,4 +363,149 @@ nav a:hover:after {
 }
 .foot a:hover{
   color: #ffa300;
+}
+
+.menu-bar{
+  display: none;
+}
+
+.mobile-main-menu{
+	display: none;
+}
+
+
+
+
+
+@media all and  (max-device-width : 768px) {
+  .flower{
+        left: 20%;
+    width: 55%;
+  }
+
+.navbar{
+  padding-right:0px;
+}
+.menu{
+    padding: 10px 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+
+}
+
+.menu li{
+      display: block;
+    width: 100%;
+    padding: 10px;
+
+ }
+
+.menu li a{
+font-size: 24px;
+color: #ffffff;
+}
+
+.menu li:nth-last-child(3) a {
+    border-right: none;
+}
+
+
+.menu-bar{
+  display: inline-block;
+   cursor: pointer;
+   right: 25px;
+    position: absolute;
+ }
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #66297c;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.main-menu{
+  display: none; 
+  position: absolute;
+  background: #66297ceb;
+  z-index: 99999;
+  margin-top: 53px;
+}
+.list-inline-item:not(:last-child){
+      border-bottom: 1px solid #fff;
+}
+.head-info {
+	font-size: 12px;
+}
+
+
+.foot {
+    border-right: none;
+    padding:  10px 30px;
+}
+.foot h3{
+    margin-bottom: 25px;
+}
+.subscribe-form{
+	padding-bottom: 10px;
+}
+.copyrights p{
+	text-align: left;
+	    padding-left: 12px;
+}
+.copyrights img{
+	right: 0;
+	width: 35%;
+}
+.footer{
+	padding: 10px 0;
+}
+.inner-content{
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+}
+.foot i{
+  padding-right: 20px;
+      width: none;
+    float: none;
+}
+
+.head-info {
+       padding-top: 55px;
+    padding-bottom: 15px;
+}
+.call img{
+  width: 20%;
+}
+
+
+}
+@media all and (max-device-width:320px){
+
+.logo img{
+  width: 75%;
+}
+.main-menu{
+	margin-top: 48px;
+}
+
 }
