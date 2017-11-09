@@ -454,7 +454,7 @@ color: #ffffff;
       border-bottom: 1px solid #fff;
 }
 .head-info {
-	font-size: 12px;
+	font-size: 14px;
 }
 
 
@@ -492,6 +492,7 @@ color: #ffffff;
 .head-info {
        padding-top: 55px;
     padding-bottom: 15px;
+    text-align: center;
 }
 .call img{
   width: 20%;
@@ -506,6 +507,23 @@ color: #ffffff;
 }
 .main-menu{
 	margin-top: 48px;
+}
+
+.call img{
+  width: inherit;
+}
+.head-info li{
+    border-right: none;
+        padding: 5px 0;
+}
+
+.head-info li:nth-last-child(3){
+  width: 100%
+}
+.head-info{
+  text-align: center;
+  padding-top: 42px;
+    padding-bottom: 8px;
 }
 
 }
